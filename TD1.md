@@ -13,3 +13,8 @@
    | idempotente                      | Oui | Non |
    | peut être mise en cache          | Oui | Seulement si une information de péremption est incluse |
    | autorisé dans les formulaire HTML| Oui | Oui |
+
+3. ### Question 3
+   Le protocole HTTP est extensible car c'est un protocole qui a évolué au cours du temps depuis 1990 et donc qui peut être améliorer au cours du temps.
+
+   
