@@ -30,3 +30,9 @@ connexion. \
    Pour eviter ce problème les cookies HTTP qui permettent l'utilisation de sessions avec des états sont utilisés. \
    
    En utilisant l'extensibilité par les en-têtes, des cookies HTTP sont ajoutés aux flux et permettent la création d'une session sur chaque requête HTTP pour partager un même contexte ou un même état.
+
+5. ### Question 5
+   Pour la décomposition d'une URL on va prendre comme exemple `https://wwww.python.org/doc/`
+   - La partie `https://` représente le protocole de transfert hypertexte.
+   - La partie `www.python.org` représente le nom de domaine, le nom unique qui permet d'identifier un site web.
+   - La partie `/doc` représente le nom du répertoire, il nous indique ou la page recherché est stocké sur le serveur Web.
