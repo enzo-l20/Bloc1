@@ -36,3 +36,12 @@ connexion. \
    - La partie `https://` représente le protocole de transfert hypertexte.
    - La partie `www.python.org` représente le nom de domaine, le nom unique qui permet d'identifier un site web.
    - La partie `/doc` représente le nom du répertoire, il nous indique ou la page recherché est stocké sur le serveur Web.
+
+6. ### Question 6
+   Les codes statut de réponse HTTP indiquent si une requête HTTP a bien été exécutée avec succès ou non. Il y a cinq familles différentes.
+   - Les réponses informatives : cette famille sert à donner des informations sur ce qu'il se passe par exemple avec le code `102 processing` qui indique que le serveur a bien reçu la requête et qu'il est en train de la traiter mais qu'aucune réponse n'est encore disponible.
+   - Les réponses de succès : cette famille sert à informer qu'une requête a bien été effectuée avec succès. Par exemple avec le code `200 OK` qui indique que la requête a réussi.
+   - Les messages de redirection : cette famille sert a effectuer une redirection quand c'est nécessaire par exemple pour le code `301 Moved Permanently` qui indique que l'URL demandée a été modifié. Une nouvelle URL est donnée dans la réponse.
+   - Les réponses d'erreur côté client : cette famille sert à indiquer qu'une erreur provient du côté du client par exemple avec le code `400 Bad Request` qui indique que le serveur n'a pas pu comprendre la requête à cause d'une syntaxe invalide.
+   - Les réponses d'erreur côté serveur : cette famille sert à indiquer qu'une erreur provient du côté du serveur par exemple avec le code `500 Internal Server Error` qui indique que le server a rencontré une situation qu'il ne sait pas traiter.
+
