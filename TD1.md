@@ -16,5 +16,5 @@
 
 3. ### Question 3
    Le protocole HTTP est extensible car c'est un protocole qui a évolué au cours du temps depuis 1990 et donc qui peut être améliorer au cours du temps.
-
-   
+   En raison de son extensibilité, il n'est pas seulement utilisé pour récupérer des documents, mais aussi pour des images, des vidéos ou bien pour renvoyer des
+   contenus vers des serveurs, comme des résultats de formulaires HTML.
