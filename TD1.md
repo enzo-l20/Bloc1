@@ -46,6 +46,6 @@ connexion. \
    - Les réponses d'erreur côté serveur : cette famille sert à indiquer qu'une erreur provient du côté du serveur par exemple avec le code `500 Internal Server Error` qui indique que le server a rencontré une situation qu'il ne sait pas traiter.
 
 7. ### Question 7
-   En HTTP, la négociation de contenu est le mécanisme utilisé pour servir différentes représentation d'une ressource à partir d'un mpeme URL pour aider l'agent utilisateur à indiquer la représentation la plus adaptée à l'utilisateur par exemple la langue du document, le format d'image ou l'encodage à utiliser pour le contenu.
+   En HTTP, la négociation de contenu est le mécanisme utilisé pour servir différentes représentation d'une ressource à partir d'un meme URL pour aider l'agent utilisateur à indiquer la représentation la plus adaptée à l'utilisateur par exemple la langue du document, le format d'image ou l'encodage à utiliser pour le contenu. \
    Un document donné est défini comme une ressource. Lorsqu'un client souhaite obtenir une ressource, il la demande via une URL. Le serveur utilise alors cette URL pour choisir l'une des variantes disponibles. Chaque variante est appelée une représentation. Le serveur renvoie alors une représentation donnée au client. La ressource, ainsi que chacune de ses représentations, dispose d'une URL spécifique. La négociation de contenu détermine quelle représentation donnée est utilisée lorsque la ressource est demandée. Il existe plusieurs méthodes de négociation entre le client et le serveur.
    
