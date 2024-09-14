@@ -1,0 +1,15 @@
+body{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.red{
+    color: red;
+}
+.link{
+    color:aqua;
+}
+h2{
+    color: green;
+    text-decoration: underline;
+}
