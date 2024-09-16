@@ -1,0 +1,25 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+hr{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.red{
+    color: darkred;
+}
+.texte1{
+    background-color: lightgray;
+    border-radius: 5px;
+    margin: 3%;
+    padding: 2px;
+}
+.texte2{
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 2px;
+}
