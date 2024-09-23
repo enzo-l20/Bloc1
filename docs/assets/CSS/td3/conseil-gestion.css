@@ -1,0 +1,24 @@
+body{
+    background-image: url(../../images/df-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+#b1{
+    background-color: rgb(255, 106, 0);
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 2.5%;
+    padding: 2%;
+}
