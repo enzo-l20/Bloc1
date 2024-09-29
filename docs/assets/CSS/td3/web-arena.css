@@ -51,7 +51,7 @@ nav ul li a:hover{
     color: black;
     margin-top: 100px;
 }
-.p1 hr{
+hr{
     background-color: #00aaff;
     width: 60px;
     margin-left: auto;
@@ -79,4 +79,76 @@ footer{
     background-image: url('../../images/header-bg.jpg');
     background-repeat: no-repeat; 
     padding: 10px;
+}
+
+
+
+/* BLOG */
+.main2{
+    display: flex;
+}
+/* blog partie gauche */ 
+
+.left{
+    padding: 20px;
+    width: 25%;
+}
+.left ul{
+    list-style: none;
+    padding: 0;
+}
+.main2 hr{
+    margin-left: 0;
+    padding: 0;
+}
+
+/* blog milieu */
+.middle{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 40%;
+}
+.text1 img{
+    width: 100%;
+    margin-bottom: 15px;
+    height: 500px;
+}
+
+.button1{
+    background-color: #517DB0;
+    color: white;
+    border-radius: 5px;
+    margin: 2px;
+    border: 0px;
+    padding: 5px;
+}
+.button1:hover{
+    background-color: blue;
+}
+.readmore{
+    margin-top: 2px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #E6EDFD;
+}
+.readmore:hover{
+    background-color: #5578B3;
+}
+
+.middle h3{
+    color: #00aaff;
+}
+
+/* Blog partie droite */
+.right{
+    margin-left: 20px;
+    width: 20%;
+}
+.text2 img{
+    width: 100%;
+    margin-bottom: 15px;
+    height: 235px;
 }
