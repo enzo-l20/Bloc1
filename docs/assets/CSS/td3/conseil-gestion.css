@@ -1,0 +1,52 @@
+body{
+    background-image: url(../../images/df-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+#b1{
+    background-color: rgb(211, 113, 48);
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 2.5%;
+    padding: 30px;
+    width: 500px;
+
+}
+.bot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+i{
+    color: #e36e44;
+    font-size: 50px;
+}
+.bot1, .bot2, .bot3, .bot4{
+    background-color: #f5f5f5;
+    width: 200px;
+    height: 250px;
+    border-radius: 10%;
+    padding: 30px;
+    box-shadow: 5px 5px 5px #6e6e6e;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: #6e6e6e;
+}
+a{
+    color: #6e6e6e;
+}
