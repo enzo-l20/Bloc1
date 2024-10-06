@@ -37,3 +37,49 @@ btplus.addEventListener("click",()=>{
 });
 
 // liste deroulantes avec image
+const liste = document.getElementById('deroulant');
+const images = document.getElementById('imgcontainer');
+liste.addEventListener('change', ()=>{
+    const imgSelectionnee = liste.value;
+    if (liste){
+        afficherimage.src = imgSelectionnee;
+        afficherimage.style.display = 'block'
+    };
+});
+
+// créer une alerte lorsqu'on survole un élément
+const alerte = document.getElementById('alerte');
+alerte.addEventListener('mouseover', ()=>{
+    window.alert('ALERTE');
+});
+
+//Horloge
+function Clock(){
+    let date = new Date();
+    let heure = date.getHours();
+    let minute = date.getMinutes();
+    let seconde = date.getSeconds();
+    let timer = heure + ' : ' + minute + ' : ' + seconde;
+    document.getElementById('clock').innerHTML = timer;
+};
+setInterval(Clock, 1000);
+Clock();
+
+// retirer un élément de la page (ici tout le body)
+const btdelete = document.getElementById('deleteElmt');
+const body = document.querySelector('body');
+btdelete.addEventListener('click',()=>{
+    body.remove();
+});
+
+//formulaire age
+const btenvoie = document.getElementById('btenvoie');
+btenvoie.addEventListener('click',function(evenement){
+    const nom = document.getElementById('nom').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+    evenement.preventDefault();
+    console.log('Nom : ', nom);
+    console.log('adresse mail :' , email);
+    console.log('Message : ', message);
+});
