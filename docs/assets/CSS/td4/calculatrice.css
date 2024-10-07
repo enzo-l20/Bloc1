@@ -4,3 +4,10 @@
     background-color: azure;
     padding: 10px;
 }
+
+#calculatrice button{
+    border: 1px solid;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
