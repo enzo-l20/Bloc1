@@ -72,6 +72,19 @@ btdelete.addEventListener('click',()=>{
     body.remove();
 });
 
+// cacher ou afficher un élément en fonction d'une case à cocher
+
+const check = document.getElementById('check');
+check.addEventListener('change', ()=>{
+    const elmtcacher = document.getElementById('elmtcacher');
+    if(check.checked){
+            elmtcacher.style.display = 'block';
+        } else{
+            elmtcacher.style.display = 'none';
+        }
+});
+
+
 //formulaire age
 const btenvoie = document.getElementById('btenvoie');
 btenvoie.addEventListener('click',function(evenement){
