@@ -10,6 +10,7 @@ const bt7 = $('7');
 const bt8 = $('8');
 const bt9 = $('9');
 
+const btdivision = $('division');
 const btmultiplication = $('multiplication');
 const btsoustraction = $('soustraction');
 const btplus = $('addition');
@@ -100,6 +101,30 @@ bt9.addEventListener('click',()=>{
     } else{
         ecran.innerText += valeur;
     };
+});
+
+btdivision.addEventListener('click',()=>{
+    ecran.innerHTML += '/'
+})
+btmultiplication.addEventListener('click',()=>{
+    ecran.innerHTML += '*';
+});
+
+btsoustraction.addEventListener('click', ()=>{
+    ecran.innerHTML += '-';
+});
+
+btplus.addEventListener('click',()=>{
+    ecran.innerHTML += '+';
+});
+
+btvirgule.addEventListener('click', ()=>{
+    ecran.innerHTML += '.';
+});
+
+btegale.addEventListener('click',()=>{
+    const calcul = eval(ecran.textContent);
+    ecran.textContent = calcul;
 });
 
 btreset.addEventListener('click',()=>{
