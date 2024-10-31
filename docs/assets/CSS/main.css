@@ -1,12 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
 }
 
-h1,h2{
-    text-align: center;
-    color: blue;
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../images/main/header/header-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5px;
+    margin-bottom: 20px;
 }
 
-.td1{
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+.titre{
+    margin: auto;
     text-align: center;
+}
+
+.nom{
+    padding-right: 5px;
 }
