@@ -81,3 +81,20 @@ main{
 main p{
     margin-bottom: 60px;
 }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/index/header/header-background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5px;
+    color: #D0D5D2;
+    height: 50px;
+}
+footer a{
+    color: #D0D5D2;
+}
