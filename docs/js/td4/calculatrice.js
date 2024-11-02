@@ -1,5 +1,6 @@
 const $=(id)=>document.getElementById(id);
 
+const bt0 = $('0');
 const bt1 = $('1');
 const bt2 = $('2');
 const bt3 = $('3');
@@ -21,6 +22,14 @@ const btreset = $('reset');
 
 const ecran = $('ecran');
 
+bt0.addEventListener('click',()=>{
+    const valeur = bt0.value;
+    if(ecran.innerText==""){
+        ecran.innerText = valeur;
+    } else{
+        ecran.innerText += valeur;
+    };
+});
 
 bt1.addEventListener('click',()=>{
     const valeur = bt1.value;
