@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="../../assets/CSS/td4/todolist.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Todo liste</h1>
+        <div class="add-task">
+            <input type="text" id="taskName" placeholder="Nom de la tâche">
+            <button onclick="addTask()">+ Ajouter une tâche</button>
+        </div>
+        <ul id="taskList"></ul>
+        <button class="delete-completed" onclick="deleteCompleted()">🗑️ Supprimer les tâches terminées</button>
+        <div class="save-load">
+            <input type="text" id="saveName" placeholder="Nom de la sauvegarde">
+            <button onclick="saveTasks()">Sauvegarder</button>
+            <div>
+                <label for="loadSave">Charger une sauvegarde :</label>
+                <select id="loadSave"></select>
+                <button onclick="loadTasks()">Charger</button>
+            </div>
+        </div>
+    </div>
+    <script src="../../js/td4/todolist.js"></script>
+</body>
+</html>
