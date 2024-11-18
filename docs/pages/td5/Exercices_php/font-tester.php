@@ -6,7 +6,7 @@ echo "<a href='?message=bonjour&couleur=green&taille=30'>Bonjour couleur vert ta
 echo "<a href='?message=bonjour&couleur=blue&taille=50'>Bonjour couleur bleu taille 50</a>";
 $defaultcolor = "black";
 $defaultsize = "12";
-$message = $_GET['message'];
+$message = $_GET['message']??"";
 $couleur = $_GET['couleur']??$defaultcolor;
 $taille = $_GET['taille']??$defaultsize;
 

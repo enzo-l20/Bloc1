@@ -20,8 +20,10 @@
     <input type="submit" value="Envoyer">
 </form>
 <?php
-$message = $_GET['message']?? Erreur: aucun message;
-
+$message = $_POST['message']??"Erreur : aucun message";
+$couleur = $_POST['couleur']??"black";
+$taille = $_POST['taille']??"12";
+echo "<p style='color:$couleur; font-size:{$taille}px'>$message</p>"
 ?>
 </body>
 </html>
