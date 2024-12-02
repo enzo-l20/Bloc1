@@ -8,7 +8,7 @@ body{
     font-optical-sizing: auto;
     font-weight: 450;
     font-style: normal;
-    background-color: #D0D5D2;
+    background-color: #D4D3DC;
     
 }
 
@@ -41,27 +41,26 @@ header{
 }
 
 main{
-    margin: 20px;
-    border-radius: 10px;
+    margin: 0px;
     background-image: url(../images/index/main/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
-.td123, .td45{
+.td123, .td45, .td678{
     display: flex;
     flex-direction: row;
-    
 }
-.td123{
+.td123, .td678{
     justify-content: space-around;
 }
 
 .td45{
     justify-content: center;
 }
-.td1, .td2, .td3, .td4, .td5{
+.td1, .td2, .td3, .td4, .td5, .td6, .td7, .td8{
     background-color: rgba(208, 213, 209, 0.829);
     width: 350px;
     height: 400px;
@@ -69,6 +68,7 @@ main{
     padding: 30px;
     box-shadow: 5px 5px 5px #6e6e6e;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .td1, .td2, .td3{
@@ -76,7 +76,8 @@ main{
 }
 
 .td4, .td5{
-    margin: 100px;
+    margin-right: 100px ;
+    margin-left: 100px;
 }
 
 main p{
@@ -88,7 +89,8 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../images/index/header/header-background2.jpg);
+    /*background-image: url(../images/index/header/header-background2.jpg);*/
+    background-color: #384454;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
