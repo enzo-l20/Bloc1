@@ -63,7 +63,7 @@ main{
 .td1, .td2, .td3, .td4, .td5, .td6, .td7, .td8{
     background-color: rgba(208, 213, 209, 0.829);
     width: 350px;
-    height: 400px;
+    height: 350px;
     border-radius: 10%;
     padding: 30px;
     box-shadow: 5px 5px 5px #6e6e6e;
