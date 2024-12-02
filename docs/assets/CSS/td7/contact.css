@@ -13,6 +13,7 @@ main{
     
     height: 100vh;
 }
+
 .left, .right{
     padding: 30px;
     height: 60vh;
